@@ -1,13 +1,10 @@
-const drpToggler = $("#dropdownMenuToggler");
-const drpDown = $("#dropdown-menu");
+$(document).ready(function() {
+  $("#menuToggler").click(function() {
+    $("#responsive-nav").slideToggle();
+    $(this).toggleClass("toggler-active");
+  });
 
-const menuBtn = $("#menuToggler");
-const resNav = $("#responsive-nav");
-
-$("#menuToggler").click(function() {
-  $("#responsive-nav").slideToggle();
-});
-
-$(drpToggler).hover(function() {
-  $(drpDown).toggleClass("open");
+  $("#dropdownMenuToggler").hover(function() {
+    $("#dropdown-menu").toggleClass("open");
+  });
 });
