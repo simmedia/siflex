@@ -1,0 +1,18 @@
+@media (max-width: 600px) {
+  nav {
+    display: none;
+  }
+
+  #menuToggler {
+    display: flex !important;
+    z-index: 222;
+  }
+
+  #responsive-nav {
+    a {
+      padding: 20px;
+      color: $lightBlue;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// colors
+$bluebell: #21116b;
+$lightBlue: #f2f6fa;
+$cyanite: #0abde3;
+$red: #ee5253;
+$gray: #576574;
+$darkGray: #222f3e;
+$green: #10ac84;
+$yellow: #feca57;
+
+// transition
+$speed: 0.3s ease-out;
+
+// font
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+// mixins
+@mixin flexCenter {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
